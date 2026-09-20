@@ -1,0 +1,72 @@
+:root{
+  /* ---------- Surface / background ---------- */
+  --bg: #08080F;
+  --bg-elevated: #0F0F1A;
+  --bg-soft: #13131F;
+  --surface: rgba(255,255,255,0.035);
+  --surface-hover: rgba(255,255,255,0.06);
+  --border: rgba(255,255,255,0.09);
+  --border-strong: rgba(255,255,255,0.16);
+
+  /* ---------- Text ---------- */
+  --text: #F5F5FA;
+  --text-soft: #A6A6C0;
+  --text-dim: #6E6E8A;
+
+  /* ---------- Brand ---------- */
+  --purple: #8B5CF6;
+  --purple-deep: #7C3AED;
+  --indigo: #6366F1;
+  --blue: #3B82F6;
+  --cyan: #22D3EE;
+  --pink: #EC4899;
+
+  --green: #22C55E;
+  --amber: #F59E0B;
+  --red: #EF4444;
+
+  --grad-brand: linear-gradient(135deg, #8B5CF6 0%, #6366F1 50%, #3B82F6 100%);
+  --grad-brand-2: linear-gradient(135deg, #A855F7 0%, #EC4899 100%);
+  --grad-text: linear-gradient(90deg, #C4B5FD 0%, #93C5FD 50%, #67E8F9 100%);
+  --grad-ring: conic-gradient(from 180deg, #22D3EE, #8B5CF6, #EC4899, #22D3EE);
+  --ring-track: rgba(255,255,255,.08);
+  --overlay: rgba(8,8,15,.75);
+
+  /* ---------- Radius ---------- */
+  --radius-xl: 28px;
+  --radius-lg: 20px;
+  --radius-md: 14px;
+  --radius-sm: 10px;
+
+  /* ---------- Shadow / glow ---------- */
+  --shadow-card: 0 20px 60px -24px rgba(0,0,0,0.6);
+  --shadow-glow-purple: 0 0 0 1px rgba(139,92,246,.25), 0 20px 60px -20px rgba(139,92,246,.35);
+  --shadow-btn: 0 8px 24px -8px rgba(124,58,237,.55);
+
+  /* ---------- Type ---------- */
+  --font-body: 'Inter', sans-serif;
+
+  --ease: cubic-bezier(.22,1,.36,1);
+}
+
+/* ---------- Light theme ---------- */
+:root[data-theme="light"]{
+  --bg: #F6F6FB;
+  --bg-elevated: #FFFFFF;
+  --bg-soft: #EFEFF6;
+  --surface: rgba(15,15,35,0.035);
+  --surface-hover: rgba(15,15,35,0.06);
+  --border: rgba(15,15,35,0.09);
+  --border-strong: rgba(15,15,35,0.16);
+
+  --text: #14141F;
+  --text-soft: #55566E;
+  --text-dim: #8A8BA3;
+
+  --grad-text: linear-gradient(90deg, #7C3AED 0%, #2563EB 50%, #0891B2 100%);
+  --ring-track: rgba(10,10,30,.08);
+  --overlay: rgba(255,255,255,.75);
+
+  --shadow-card: 0 20px 50px -26px rgba(20,20,40,0.22);
+  --shadow-glow-purple: 0 0 0 1px rgba(139,92,246,.18), 0 20px 50px -22px rgba(139,92,246,.22);
+}
